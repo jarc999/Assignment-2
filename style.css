@@ -78,3 +78,17 @@ form {
     height: 400px;
     padding-left: 40px;
 }
+
+.homepagebox {
+    text-align: center;
+    width: 400px;
+    height: 550px;
+    margin: 20px;
+    border: dotted rgb(225, 89, 89) 2px;
+}
+
+.homepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
