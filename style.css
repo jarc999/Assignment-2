@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(113, 184, 246);
+    position: fixed;
+    top: 0;
+    width: fit-content;
+    border: dotted;
+}
+
+li {
+float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 150px; 
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+}
+
+.header {
+    padding-top: 80px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+.Contact-Icons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.interviews {
+    text-align: center;
+    border: dashed black 2px;
+    width: 400px;
+    height: 550px;
+    margin: 20px;
+}
+
+.interviewbox {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+  padding: 50px 200px;
+  margin: 0px 250px;
+}
+
+form {
+    border: solid 2px black;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.livestreambox {
+    border: solid 2px black;
+    width: 600px;
+    height: 400px;
+    padding-left: 40px;
+}
